@@ -1,0 +1,32 @@
+{
+  "name": "cv-cli",
+  "version": "0.0.1",
+  "description": "cli tools for create vue project",
+  "main": "index.js",
+  "bin": {
+    "cv": "bin/init.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/liguirong720/cv-cli.git"
+  },
+  "author": "liguirong720",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "ora": "^4.0.5"
+  }
+}
